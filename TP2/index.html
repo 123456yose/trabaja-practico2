@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo Practico N°2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="encabezado">
+        <h1>Trabajo Practico N°2</h1>
+    </header>
+
+<h2 class="tipos">1-Defina y ejemplifique los distintos tipos de medida que se usan en Css3 </h2>
+<p class="medidas">En CSS3, hay diferentes tipos de medidas que puedes utilizar para especificar dimensiones como el ancho, alto, margen, relleno, etc. Aquí hay algunos ejemplos de los distintos tipos de medidas:
+<br>
+1.<b>Unidades absolutas:</b>
+<br>
+<i>px (píxeles):</i> Es una unidad absoluta y representa un píxel en la pantalla. Por ejemplo: </p>
+<div><img src="IMG/1...png" alt=""></div>
+<br>
+<p class="relativa">2.<b>Unidades relativas:</b>
+<br>
+<i>% (porcentaje):</i> Establece el tamaño relativo al tamaño del elemento padre. Por ejemplo: </p>
+<div><img src="IMG/2...png" alt=""></div>
+<br>
+<p class="relativa2"><i>em:</i> Relativo al tamaño de la fuente del elemento. Por ejemplo:</p>
+<div><img src="IMG/3...png" alt=""></div>
+<br>
+ <p class="relativa3"><i>rem:</i> Similar a 'em', pero relativo al tamaño de la fuente del elemento raíz (root). Por ejemplo:</p>
+<div><img src="IMG/4...png" alt=""></div>
+<br>
+ <p class="viewport">3.<b>Unidades de viewport:</b>
+<br>
+<i>vw (ancho viewport):</i> 1vw es igual al 1% del ancho del viewport. Por ejemplo:</p>
+<div><img src="IMG/5...png" alt=""></div>
+<br>
+ <p class="viewport1"><i>vh (alto del viewport):</i> 1vh es igual al 1% del alto del viewport. Por ejemplo:</p>
+<div><img src="IMG/6...png" alt=""></div>
+<br>
+ <p class="texto">4.<b>Unidades de texto:</b>
+<br>
+<i>ex:</i> Representa la altura de la letra 'x' en la fuente actual. Por ejemplo:</p>
+<div><img src="IMG/7...png" alt=""></div>
+<br>
+<p class="otros">5.<b>Otras unidades:</b>
+<br>
+<i>cm, mm, in, pt,pc:</i> Unidades absolutas que representan centímetros, milímetros, pulgadas, puntos y picas respectivamente. Por ejemplo: </p>
+<div><img src="IMG/8..png" alt=""></div>
+<br>
+ <p class="características">Cada tipo de medida tiene sus propias características y es útil en diferentes situaciones dependiendo de las necesidades de diseño y el comportamiento deseado en el diseño web.</p>
+<h3 class="definir">2-Defina cada parte y que representa,de lo que ve a continuación: </h3>
+    <p class="partes">
+        .menu{
+            <br>
+            display:inline;
+            <br>
+            margin-left:130px;
+            <br>
+            margin-top: 25px;
+            <br>
+            margin:5px;
+            <br>
+            background-color:blanchedalmnond;
+            <br>
+            padding: 15px;
+            <br>
+            font-size:20px;
+            <br>
+            /* padding: ; */
+            <br>
+        }
+    <br>
+    Este es el significado de cada parte del código CSS que es el siguiente:
+    <ul class="lista">
+        <li><i>.menu{}:</i> Esto define una regla de estilo para todos los elementos HTML que tengan la clase "menu". Esto significa que cualquier elemento HTML con la clase "menu" aplicará estos estilos.</li>
+        <li><i>Display: inline:</i> Esto establece la propiedad de visualización del elemento. En este caso, el elemento se mostrará como un elemento en línea, lo que significa que ocupará solo el espacio horizontal necesario y no comenzará en una nueva línea.</li>
+        <li><i>margin-top: 25px:</i>Esto establece el margen superior del elemento en 25 píxeles. Habrá un espacio de 25 píxeles entre el borde superior del elemento y su contenedor.</li>
+        <li><i>margin: 5px:</i> Esta propiedad sobrescribe las propiedades margin-left y margin-top anteriores. Establece el margen en todos los lados del elemento en 5 píxeles. Esto significa que habrá un espacio de 5 píxeles en todos los lados del elemento respecto a su contenedor.</li>
+        <li><i>background-color:</i> blanchedalmnond;: Esto establece el color de fondo del elemento en "blanchedalmnond". "Blanchedalmnond" es un color predefinido en CSS que es una tonalidad de blanco ligeramente amarillento.</li>
+        <li><i>padding: 15px:</i> Esto establece el relleno del elemento en 15 píxeles en todos los lados. El relleno es el espacio entre el contenido del elemento y su borde.</li>
+        <li><i>font-size: 20px:</i> Esto establece el tamaño de la fuente del texto dentro del elemento en 20 píxeles.</li>
+        <li><i>padding: ; */:</i> Esto es un comentario CSS que no afecta al estilo. Puede ser útil para dejar notas en el código para referencia futura. En este caso, parece ser un comentario que ha sido desactivado (comentado) ya que está precedido por /* y seguido por */.
+
+        </li>
+    </ul>
+    </p>
+    <h4 class="propiedad">3-¿Cual es la diferencia en el valor de la propiedad display si uso inline o inline-block? </h4>
+<p class="display"> La propiedad display en CSS controla cómo se muestra un elemento en el diseño de la página.
+<br>
+Aca hay  una descripción más detallada de cada uno:
+<br>
+<i>display:inline:</i>
+Los elementos se mostrarán en línea, uno después del otro, sin comenzar en una nueva línea.
+No se puede especificar un ancho o alto para el elemento.
+El margen superior e inferior no afecta a los elementos adyacentes.
+No se pueden establecer márgenes o rellenos en las direcciones superior e inferior.
+Ejemplos de elementos en línea son <span>, <a>, <img>, entre otros.
+<br>
+<i>display: inline-block:</i>
+Los elementos se muestran en línea, pero permiten ajustar el ancho y el alto, así como agregar márgenes y rellenos.
+Se puede especificar un ancho y alto para el elemento.
+Los elementos respetan los márgenes superiores e inferiores, lo que afecta a los elementos adyacentes.
+Permite establecer márgenes y rellenos en todas las direcciones.
+Es útil para elementos que necesitan comportarse como elementos en línea pero que también necesitan algunas características de los bloques, como los márgenes y los rellenos.</p>
+
+<h5 class="alternativas">4-Indique las 4 alternativas de uso tanto para padding y para margin e identifique como funcionan.</h5>
+<p class="funcionan">Margenes:En el modelo de cajas, los margenes (margin) son los espacios exteriores de un elemento.El espacio que hay entre el borde de un elemento y el borde de otros elementos adyacentes, es lo que se considera márgen.
+    <table id="margin">
+        <tr class="margin">
+           <th>propiedad</th>
+            <th>valor</th>
+           <th>Significado</th>
+       </tr>
+        <tr>
+        <td>Margin-top</td>
+        <td> auto |</td>
+        <td>Establece un tamaño de margen superior</td>
+        </tr>
+        <tr>
+         <td>margin-left</td>
+         <td> auto |</td>
+         <td>Establece un tamaño de margen a la izquierda</td>
+        </tr>
+        <tr >
+            <td>margin-right</td>
+            <td>auto |</td>
+            <td>Establece un tamaño de margen a la derecha</td>
+        </tr>
+        <tr >
+            <td>margin-bottom</td>
+            <td>auto |</td>
+            <td>Establece un tamaño de margen inferior</td>
+        </tr>
+        </table>
+<p class="funcionan1">Hay que recordar diferenciar bien los márgenes de los rellenos, puesto que no son la misma cosa. Los rellenos (padding) son los espacios que hay entre los bordes del elemento en cuestión y el contenido del elemento (por la parte interior). Mientras que los márgenes (margin) son los espacios que hay entre los bordes del elemento en cuestión y los bordes de otros elementos (parte exterior).El siguiente ejemplo para ilustrar el solapamiento de márgenes. Por defecto, si tenemos dos elementos adyacentes con, por ejemplo, margin: 20px cada uno, ese espacio de margen se solapará y tendremos 20px en total, y no 40px (la suma de cada uno) como podríamos pensar en un principio.
+Rellenos o padding
+<br>
+Al igual que con los márgenes, los rellenos tienen varias propiedades para indicar 
+cada zona:</p>
+<table id="padding">
+    <tr>
+        <th>propiedad</th>
+        <th>valor</th>
+       <th>Significado</th>
+    </tr>
+    <tr>
+        <td>padding-top</td>
+        <td>0 |</td>
+        <td>Aplica un relleno interior en el espacio superior de un elemento</td>
+    </tr>
+    <tr>
+        <td>padding-left</td>
+        <td>0 |</td>
+        <td>Aplica de un relleno interior en el espacio izquierdo de un elemento</td>
+    </tr>
+    <tr>
+        <td>padding-right</td>
+        <td>0 |</td>
+        <td>Aplica un relleno interior en el espacio derecho de un elemento</td>
+    </tr>
+    <tr>
+        <td>padding-bottom</td>
+        <td>0 |</td>
+        <td>Aplica un relleno interior en el espacio inferior de un elemento</td>
+    </tr>
+</table> 
+</p>
+    <h6 class="selectores">5-Defina e indique los distintos tipos de selectores que se usan en Css3 </h6>
+<p class="usan">Al margen de la selección «básica» de elementos a través de CSS, que suele realizarse mediante clases e IDs, existe un amplio abanico de métodos para seleccionar elementos dependiendo de la estructura del documento HTML denominados combinadores CSS:</p>
+  <table id="distintos">
+    <tr>
+        <th>Nombre</th>
+        <th>Simbolo</th>
+        <th>Ejemplo</th>
+        <th>Significado</th>
+    </tr>
+    <tr>
+        <td>Agrupacion de selectores</td>
+        <td> ,</td>
+        <td> p, a, div {}</td>
+        <td>Se aplica estilos a varios elementos.</td>
+    </tr>
+    <tr>
+        <td>Selector descendiente</td>
+        <td> </td>
+        <td> #page div {}</td>
+        <td>Se aplica estilos a elementos dentro de otros.</td>
+    </tr>
+    <tr>
+        <td>Selector hijo</td>
+        <td> > </td>
+        <td>#page > div {} </td>
+        <td>Se aplica estilos a elementos hijos directos.</td>
+    </tr>
+    <tr>
+        <td>Selector hermano adyacente</td>
+        <td> + </td>
+        <td> div + div {}</td>
+        <td>Se aplica estilos a elementos que siguen a otros.</td>
+    </tr>
+    <tr>
+        <td>Selector hermano general</td>
+        <td> - </td>
+        <td>div - div {}</td>
+        <td>Se aplica estilos a elementos al mismo nivel</td>
+    </tr>
+    <tr>
+        <td>Selector universal</td>
+        <td> * </td>
+        <td>#page * {}</td>
+        <td>Se aplica estilos a todos los elementos.</td>
+    </tr>
+   </table>
+    <h2 class="externos">6-¿Que significa que Html5 trabaje con archivos externos?</h2>
+ <p class="archivos">Cuando se dice que HTML5 puede trabajar con archivos externos, generalmente se está haciendo referencia a la capacidad de HTML5 para incluir recursos como archivos CSS (hojas de estilo), archivos JavaScript, imágenes u otros medios desde ubicaciones externas al archivo HTML principal. </p>
+    <h3 class="ruta">7-¿Que es una ruta absoluta y una relativa?</h3>
+ <p class="definicion">Una ruta absoluta es una dirección compelta que especifica la ubicación de un archivo o directorio desde la raiz del sistema de archivos.Por ejemplo, en sistemas Unix-like, una ruta absoluta podria ser "/home/usuario/archivo.txt".En contraste, una ruta relativa e una dirección que se especifica en relación con el directorio actual.Por ejemplo, si estas en el directorio "/home/usuario/" y quieres referenciar el archivo "archivo.txt" que esta en el mismo directorio, puedes usar la ruta relativa "./archivo.txt".Las rutas relativas son mas flexibles y portátiles, ya que permiten mover o copiar archivos y directorio sin tener que cambiar todas las referencia de rutas, mientras que las rutas absoluta son fijas y depeden de la estructura del sistema de archivos. </p>
+    <h4 class="color">8-Defina y ejemplifique los distintos tipos de valores que puede tomar la propiedad color</h4>
+ <p class="definir">La propiedad color en CSS se utiliza para definir eel color del texto dentro de un elemento HTML.
+    Puede tomar diferentes tipos de valores:</p>
+    <ul class="colores">
+        <li> <i>Nombre de color:</i> Puede utlizar nombres predefinidos para los colores como red,blue,green,entre otros por ejemplo:
+            color:red;
+        </li>
+        <li><i>Valores Hexadecimales:</i>Representa colores mediante una combinación de números y letras.por ejemplo:
+            <br>
+            color:#FFA500;
+        </li>
+        <li><i>Valores RGB:</i>Representan colores mediante la combinación de valores de rojos,verde y azul.Puede ser valores absolutos (0 a 255) o procentajes (0% a 100%).Por ejemplo:
+            <br>
+            color:rgb(255,0,0,0.5); 
+            <br>
+            color:rbg(50%,75%,25%);
+        </li>
+        <li><i>Valores RBGA:</i>Similar a RGB, pero con un componente adicional para la opacidad (alfa).La opacidad se especifica como un valor entre 0 (totalmente transparente) y 1 (totalmente opaco).Por ejemplo: 
+            <br>
+            color:rgba(255,0,0,0.5);
+        </li>
+        <li><i>Valores HSL y HSLA:</i>Representan colores mediante tono,saturación y luminosidad.HSLA tambien incluye un componente alfa para la opacidad.Por ejemplo:
+            <br>
+            color:hsl(120,100%,50%);
+            <br>
+            color:hsla(240,100%,50%,0.5);
+        </li>
+    </ul>
+    <h5 class="modelo">9-¿Que es el modelo de caja, y en que se diferencia padding de margin?</h5>
+   <p class="cajas"> <i>Modelo de cajas:</i> Es un concepto en CSS que se describe como se representa los elementos HTML en una página web.Incluye el contendio del elemento,el padding(relleno),el borde y el margin (margen).
+    <br>
+    El padding es el espacio entre el contenido del elemento y su borde, mientras que el margin es el espacio entre el borde del elemento y otros elementos adyacentes.(El padding afecta el interior del elemento y el margin afecta al espacio exterior del elemento).</p>
+    <h6 class="proyecto">10-Completa el proyecto iniciado en clases.</h6>
+</body>
+</html>
